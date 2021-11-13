@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+.margin {margin: 20px;}
+.edge {border-radius: 5px; width: 30px; height: 30px;margin: 0;}
+.navi a:link, .navi a:visited {text-decoration-line: none;}
+.flex {display: flex;justify-content: center;align-items: center;}
+.marginupdown {margin-top: 100px;margin-bottom: 50px;font-size: 20px;}
+a {text-decoration: none;}
+.fontdongle {font-family: 'Dongle', sans-serif; font-size: 25px;}
+.ulmenu {list-style: none;padding-left: 0px;font-size: 30px;}
+* {margin: 0;}
+#left-sidebar {
+    width: 15%;
+    height: 1000px;
+    margin: 0px;
+    background-color: rgb(255, 233, 106);
+    float: left;
+}
+
+#contents {
+    width: 85%;
+    height: 1000px;
+    background-color: #fff5d9;
+    float: left;
+}
