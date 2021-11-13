@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .margin {margin: 20px;}
 .edge {border-radius: 5px; width: 30px; height: 30px;margin: 0;}
 .navi a:link, .navi a:visited {text-decoration-line: none;}
 .flex {display: flex;justify-content: center;align-items: center;}
-.marginupdown {margin-top: 100px;margin-bottom: 50px;font-size: 20px;}
+.marginupdown {margin-top: 100px;margin-bottom: 250px;font-size: 20px;}
 a {text-decoration: none;}
-.fontdongle {font-family: 'Dongle', sans-serif; font-size: 25px;}
+.fontdongle {font-family: 'Dongle', sans-serif;font-size: 25px;}
+.fontkotra {font-family: 'KOTRAHOPE';font-size: 20px;}
 .ulmenu {list-style: none;padding-left: 0px;font-size: 30px;}
 * {margin: 0;}
 #left-sidebar {
-    width: 15%;
+    width: 13%;
     height: 1000px;
     margin: 0px;
     background-color: rgb(255, 233, 106);
@@ -18,7 +25,7 @@ a {text-decoration: none;}
 }
 
 #contents {
-    width: 85%;
+    width: 87%;
     height: 1000px;
     background-color: #fff5d9;
     float: left;
