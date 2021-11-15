@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body style="background-color: #fff5d9;">
-    <div class="container fontdongle">
-        <aside id="left-sidebar">
-            <div class="flex marginupdown fontkotra ">
-                <ul class="ulmenu">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/introduce.html">Introduce</a></li>
+<body>
+    <div id="container">
+        <header id="header">
+            <nav id="topMenu">
+                <ul class="ul_none dongle_font">
+                    <li class="li_menu"><a href="/index.html">Home</a></li>
+                    <li class="li_menu"><a href="/introduce.html">Introduce</a></li>
+                    <li class="li_menu"><a href="#">#####</a></li>
+                    <li class="li_menu"><a href="#">#####</a></li>
                 </ul>
-            </div>
-            <nav class="navi margin flex">
-                <a href="https://github.com/YellowHan" target="blank">
+            </nav>
+            <button class="right header_margin" type="submit">검색</button>
+            <input class="right header_margin" type="search">
+        </header>
+        <aside id="left_sidebar" class="padding-top50">
+            <img src="img\notebookemoji.png" width="200px" height="200px">
+            <div class="padding-top50 padding-left50">
+                <a href="https://github.com/YellowHan" target="_blank">
                     <img class="edge" src="img\github.jpg" alt="깃허브로 이동">
                 </a>
-                <a href="https://blog.naver.com/hellou8363" target="blank">
+                <a href="https://blog.naver.com/hellou8363" target="_blank">
                     <img class="edge" src="img\blog.jpg" alt="블로그로 이동">
                 </a>
-                <a href="https://cafe.naver.com/codeuniv" target="blank">
-                    <img class="edge" src="img\codeuniv.jpg" alt="코뮤니티로 이동">
+                <a href="https://www.instagram.com/sunbang_han/" target="_blank">
+                    <img class="edge" src="img/instagram.jpg" alt="인스타그램으로 이동">
                 </a>
-            </nav>
+            </div>
         </aside>
-        <section id="contents">
+        <section id="introduce" class="padding-top50 dongle_font">
             <h1 class="margin">
-                YellowHan<img src="img\notebookemoji.png" width="50px" height="50px" style="margin: 0px;">
+                YellowHan
             </h1>
             <hr class="margin">
             <p class="margin">&#128013; 89년생 방구석 코딩러</p>
