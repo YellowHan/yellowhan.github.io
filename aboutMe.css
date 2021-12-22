@@ -1,0 +1,35 @@
+main {
+  width: 90%;
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: row;
+}
+.left_page {
+  flex: 0.3;
+  text-align: center;
+  padding: 15px;
+}
+.page_gap {
+  flex: 0.1;
+}
+.right_page {
+  flex: 1;
+  width: 100%;
+}
+.profile_img {
+  width: 200px;
+  height: 200px;
+}
+.snsLink {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+li {
+  list-style: none;
+}
