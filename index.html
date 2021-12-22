@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./layout.css" />
     <link rel="stylesheet" href="./aboutMe.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./layout.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,7 +16,16 @@
         <nav>
           <ul>
             <li><a href="./index.html">About Me</a></li>
-            <li class="list"><a href="./project.html">Project</a></li>
+            <li>
+              <a id="show_list" href="./project.html">Project</a>
+              <ul id="sub_menu_list">
+                <li><a href="./myCyworld.html">My Cyworld</a></li>
+                <li><a href="./wordCard.html">Word Card</a></li>
+                <li><a href="./chatBot.html">Chat Bot</a></li>
+              <li><a href="./threeLines.html">Three Lines</a></li>
+              <li><a href="./animalForest.html">Animal Forest</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </header>

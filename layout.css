@@ -5,7 +5,7 @@ body {
 .container {
   width: 80vw;
   height: 100vh;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: auto;
 }
 /* Menu */
@@ -13,8 +13,6 @@ header {
   width: 100%;
   height: 8vh;
   background: rgba(255, 255, 255, 0);
-  border-bottom: 1px solid black;
-  padding-bottom: 2vh;
   position: relative;
 }
 header nav{
@@ -23,19 +21,51 @@ header nav{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
-nav ul li {
+nav > ul > li {
   float: left;
   font-size: 1.5rem;
   font-weight: 700;
   list-style: none;
   margin: 0px 30px 0px 30px;
+  
 }
 a {
   text-decoration-line: none;
 }
-.list:hover {
-display: block;
+#show_list {
+position: relative;
 }
-
+/* 확장메뉴 */
+#sub_menu_list {
+  display: none;
+  width: 150px;
+  height: 140px;
+  position: absolute;
+  padding-left: 10px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0);
+  background: rgb(214, 252, 255);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#sub_menu_list li {
+  margin: 10px auto;
+}
+#sub_menu_list ul {
+  margin-top: 100px;
+}
+/* Main */
+main {
+  width: 100%;
+  margin: 30px auto;
+}
+iframe {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 10px;
+}
 
