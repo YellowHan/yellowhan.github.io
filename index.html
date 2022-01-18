@@ -4,78 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./layout.css" />
-    <link rel="stylesheet" href="./aboutMe.css" />
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="./layout.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Yellow Blog</title>
   </head>
   <body>
     <div class="container">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="./index.html">About Me</a></li>
-            <li>
-              <a id="show_list" href="./project.html">Project</a>
-              <ul id="sub_menu_list">
-                <li><a href="./myCyworld.html">My Cyworld</a></li>
-                <li><a href="./wordCard.html">Word Card</a></li>
-                <li><a href="./chatBot.html">Chat Bot</a></li>
-              <li><a href="./threeLines.html">Three Lines</a></li>
-              <li><a href="./animalForest.html">Animal Forest</a></li>
-              <li><a href="./countNumbers.html">Count Numbers</a></li>
-              <li><a href="./javascript_typeof.html">Javascript Typeof</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="left_page">
-          <img class="profile_img" src="img\notebookemoji.png" />
-          <div>
-            <a href="https://github.com/YellowHan" target="_blank">
-              <img class="snsLink" src="img\github.jpg" alt="깃허브로 이동">
-            </a>
-            <a href="https://blog.naver.com/hellou8363" target="_blank">
-              <img class="snsLink" src="img\blog.jpg" alt="블로그로 이동">
-            </a>
-            <a href="https://www.instagram.com/sunbang_han/" target="_blank">
-              <img class="snsLink" src="img/instagram.jpg" alt="인스타그램으로 이동">
-            </a>
-          </div>
-        </div>
-        <div class="page_gap"></div>
-        <div class="right_page">
-          <div>
-            <p>&#128013; <span>Han Eun Hye</span></p>
-            <ul>
-              <li>89년생 방구석 코딩러</li>
-            </ul>
-          </div>
-          <div>
-            <p>&#128214; <span>Learning</span></p>
-            <ul>
-              <li>JAVA</li>
-              <li>HTML/CSS</li>
-              <li>JavaScript</li>
-            </ul>
-          </div>
-          <div>
-            <p>&#128218; <span>Study List</span></p>
-            <ul>
-              <li>코뮤니티 _ JAVA를 자바 9월 과정(수료)</li>
-              <li>코뮤니티 _ 웹 심화 : HTML + CSS편 11월 과정(수료)</li>
-              <li>코뮤니티 _ 웹 자바스크립트 12월 과정(진행중)</li>
-              <li>Do it! 자바 프로그래밍 입문(수료)</li>
-              <li>Do it! HTML+CSS+자바스크립트 웹 표준의 정석(수료)</li>
-              <li>Do it! 타입스크립트 프로그래밍(진행중)</li>
-              <li>FastCampus(인강) _ 스프링의 정석(진행중)</li>
-            </ul>
-          </div>
-        </div>
-      </main>
+      <div class="left">
+        <img id="leftbtn" src="./img/left.png" alt="왼쪽 버튼" />
+      </div>
+      <div class="contents">
+        <iframe src="https://yellowhan.github.io/mini_home/" frameborder="0"></iframe>
+      </div>
+      <div class="right">
+        <img id="rightbtn" src="./img/right.png" alt="오른쪽 버튼" />
+      </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
